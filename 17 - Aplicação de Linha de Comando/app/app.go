@@ -53,7 +53,7 @@ func buscarIps(c *cli.Context) {
 
 }
 
-func buscarServidores(c *cli.Context) {
+func buscarServidores(  ) {
 	host := c.String("host")
 
 	servidores, erro := net.LookupNS(host) // name server
